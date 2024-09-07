@@ -13,7 +13,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "calculator/sum/1/1",
+      "launchUrl": "person",
       "applicationUrl": "http://localhost:5115",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -23,7 +23,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "calculator/sum/1/1",
+      "launchUrl": "person",
       "applicationUrl": "https://localhost:7243;http://localhost:5115",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -32,7 +32,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "calculator/sum/1/1",
+      "launchUrl": "person",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

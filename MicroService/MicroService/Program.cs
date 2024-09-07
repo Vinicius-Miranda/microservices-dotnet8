@@ -1,3 +1,6 @@
+using MicroService.Services;
+using MicroService.Services.Implementations;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -7,6 +10,7 @@ internal class Program
         // Add services to the container.
 
         builder.Services.AddControllers();
+        builder.Services.AddScoped<IPersonService, PersonService>();
 
         var app = builder.Build();
 
